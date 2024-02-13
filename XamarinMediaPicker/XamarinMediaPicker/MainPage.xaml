@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMediaPicker.MainPage">
+
+    <StackLayout>
+        <Image x:Name="ImagePreview"></Image>
+        <Button x:Name="GalleryPickerBtn"
+                Text="Select From Gallery"
+                Clicked="GalleryPickerBtn_Clicked">
+        </Button>
+        <Button x:Name="CameraCaptureBtn"
+                Text="Open Camera"
+                Clicked="CameraCaptureBtn_Clicked">
+        </Button>
+    </StackLayout>
+
+</ContentPage>
